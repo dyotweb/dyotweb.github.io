@@ -1,6 +1,6 @@
 {
   "name": "dyotweb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "DyotWeb",
   "dependencies": {
     "antd": "^3.7.0",
