@@ -19,7 +19,7 @@ const Hero = props => {
               <strong>DYOT</strong>
             </div>
           </h1>
-          <button onClick={scrollToContent} aria-label="Our Services">
+          <button onClick={scrollToContent} aria-label="About Us">
             Read More
           </button>
         </div>
