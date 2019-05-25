@@ -11,8 +11,14 @@ const Article = props => {
       {/* --- STYLES --- */}
       <style jsx>{`
         .article {
-          padding-top: ${`calc(${theme.space.inset.l} * 1.5)`};
+          padding-top: 0px;
           margin: 0 auto;
+        }
+
+        @from-width desktop {
+          .article {
+            padding-top: ${`calc(${theme.space.inset.l} * 1.5)`};
+          }
         }
       `}</style>
     </React.Fragment>
