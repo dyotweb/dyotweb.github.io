@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import config from "../../../content/meta/config";
-import avatar from "../../images/jpg/avatar.jpg";
+import Avatar from "!svg-react-loader!../../images/svg-icons/avatar.svg?name=Avatar";
 
 const Author = props => {
   const { note, theme } = props;
@@ -11,10 +11,7 @@ const Author = props => {
     <React.Fragment>
       <div className="author">
         <div className="avatar">
-          <img
-            src={config.gravatarImgMd5 == "" ? avatar : config.gravatarImgMd5}
-            alt={config.siteTitle}
-          />
+          <Avatar fill={theme.color.brand.primary} />
         </div>
         <div className="note" dangerouslySetInnerHTML={{ __html: note }} />
       </div>
@@ -37,7 +34,7 @@ const Author = props => {
           overflow: hidden;
           width: 50px;
         }
-        .avatar img {
+        .avatar svg {
           width: 100%;
         }
         .note {
