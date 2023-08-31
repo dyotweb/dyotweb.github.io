@@ -32785,7 +32785,7 @@ a.u-button-style.u-border-hover-palette-1-base:hover,
 a.u-button-style:hover > .u-border-hover-palette-1-base,
 a.u-button-style.u-border-hover-palette-1-base:focus,
 a.u-button-style.u-button-style.u-border-active-palette-1-base:active,
-a.u-button-style.u-button-style.u-border-active-palette-1-base.active,
+/* a.u-button-style.u-button-style.u-border-active-palette-1-base.active, */
 a.u-button-style.u-button-style.active > .u-border-active-palette-1-base,
 li.active > a.u-button-style.u-button-style.u-border-active-palette-1-base,
 input.u-field-input.u-field-input.u-border-active-palette-1-base:checked {
@@ -37629,25 +37629,25 @@ a.u-button-style:hover > .u-text-hover-palette-1-base[class*="u-border-"],
 a.u-button-style.u-button-style.u-text-hover-palette-1-base:hover,
 a.u-button-style.u-button-style.u-text-hover-palette-1-base[class*="u-border-"]:hover,
 a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-base.active,
-a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-base[class*="u-border-"].active,
+/* a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-base[class*="u-border-"].active, */
 a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-base:active,
 a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-base[class*="u-border-"]:active,
 a.u-button-style.u-button-style.u-text-hover-palette-1-base:focus,
 a.u-button-style.u-button-style.u-text-hover-palette-1-base[class*="u-border-"]:focus,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-base:active,
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-base[class*="u-border-"]:active,
-a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-base.active,
-a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-base[class*="u-border-"].active,
+/* a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-base.active, */
+/* a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-base[class*="u-border-"].active, */
 a.u-button-style.u-button-style.active > .u-text-active-palette-1-base,
 a.u-button-style.u-button-style.active > .u-text-active-palette-1-base[class*="u-border-"],
 :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-palette-1-base:hover,
-:not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-palette-1-base.active,
+/* :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-palette-1-base.active, */
 .u-text-hover-palette-1-base.u-language-url:hover,
 .u-text-hover-palette-1-base .u-language-url:hover,
 .u-text-hover-palette-1-base.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-palette-1-base .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-1-base .u-nav-link.active {
-  /* color: #478ac9 !important; */
+  color: #478ac9 !important;
 }
 .u-text-palette-1-base .u-svg-link,
 .u-text-hover-palette-1-base:hover .u-svg-link,
@@ -41319,7 +41319,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style:hover > .u-border-hover-custom-color-4,
         a.u-button-style.u-border-hover-custom-color-4:focus,
         a.u-button-style.u-button-style.u-border-active-custom-color-4:active,
-        /* a.u-button-style.u-button-style.u-border-active-custom-color-4.active, */
+        a.u-button-style.u-button-style.u-border-active-custom-color-4.active,
         a.u-button-style.u-button-style.active > .u-border-active-custom-color-4,
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-4,
         input.u-field-input.u-field-input.u-border-active-custom-color-4:checked
@@ -42209,7 +42209,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 81px;
+  min-height: 87px;
 }
 
 .u-header .u-icon-1 {
@@ -42227,14 +42227,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -22px 0 0 auto;
+  margin: -18px 0 0 auto;
 }
 
 .u-header .u-nav-1 {
-  font-size: 1rem;
-  text-transform: none;
-  letter-spacing: normal;
-  font-weight: normal;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .u-header .u-nav-2 {
@@ -42243,7 +42242,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-text-2 {
   font-size: 1.125rem;
-  margin: -12px auto 12px 63px;
+  margin: -13px auto 17px 63px;
 }
 @media (max-width: 1199px) {
   .u-header .u-icon-1 {
@@ -42258,10 +42257,15 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     width: auto;
+    margin-top: -22px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 
   .u-header .u-text-2 {
-    margin-top: -12px;
+    margin-top: -13px;
     margin-left: 63px;
   }
 }
